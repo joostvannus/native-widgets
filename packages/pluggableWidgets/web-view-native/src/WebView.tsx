@@ -30,6 +30,8 @@ export class WebView extends Component<Props> {
         return (
             <View style={this.styles.container} testID={this.props.name}>
                 <RNWebView
+                    allowsFullscreenVideo={this.props.allowFullscreen}
+                    scalesPageToFit={this.props.scalePageToFit}
                     source={html ? { html } : { uri: uri! }}
                     style={{
                         width: "100%",

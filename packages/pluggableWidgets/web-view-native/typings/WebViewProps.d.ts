@@ -17,6 +17,8 @@ export interface WebViewProps<Style> {
     onMessageInput?: EditableValue<string>;
     userAgent: string;
     openLinksExternally: boolean;
+    allowFullscreen: boolean;
+    scalePageToFit: boolean;
 }
 
 export interface WebViewPreviewProps {
@@ -36,4 +38,6 @@ export interface WebViewPreviewProps {
     onMessageInput: string;
     userAgent: string;
     openLinksExternally: boolean;
+    allowFullscreen: boolean;
+    scalePageToFit: boolean;
 }
