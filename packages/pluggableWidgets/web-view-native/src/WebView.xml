@@ -46,10 +46,12 @@
             <property key="openLinksExternally" type="boolean" defaultValue="false">
                 <caption>Open links externally</caption>
                 <description>If true, links embedded in source document will be opened in external browser instead of inside this widget.</description>
-            </property><property key="allowFullscreen" type="boolean" defaultValue="false">
+            </property>
+            <property key="allowFullscreen" type="boolean" defaultValue="false">
                 <caption>Allow fullscreen</caption>
                 <description>Boolean that determines whether videos are allowed to be played in fullscreen. Only applicable for Android.</description>
-            </property><property key="scalePageToFit" type="boolean" defaultValue="false">
+            </property>
+            <property key="scalePageToFit" type="boolean" defaultValue="true">
                 <caption>Scale page to fit</caption>
                 <description>Boolean that controls whether the web content is scaled to fit the view and enables the user to change the scale.</description>
             </property>
